@@ -24,7 +24,7 @@ public class ConstructorTest {
         Map<String, List<String>> dependency = new HashMap<>();
 
         // when
-        PhoneBook phoneBook = new PhoneBook(dependency);
+        PhoneBook phoneBook = new PhoneBook();
 
         // then
         Assert.assertEquals(dependency, phoneBook.getMap());
